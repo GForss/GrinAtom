@@ -370,6 +370,11 @@
                     line-height: 152%;
                     letter-spacing: 0.005em;
                     cursor: $cursor;
+
+                    &__link {
+                        text-decoration: none;
+                        color: $white;
+                    }
                }
 
             }        
