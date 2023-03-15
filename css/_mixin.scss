@@ -1,0 +1,8 @@
+@mixin heading() {
+    color: $darkBlue;
+    font-weight: 700;
+    font-size: 77px;
+    line-height: 113%;
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+}
