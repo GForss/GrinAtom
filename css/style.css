@@ -120,7 +120,7 @@ body {
   color: #003274;
 }
 
-.clous {
+.close {
   display: none;
 }
 
@@ -544,6 +544,12 @@ body {
   .menu__list {
     display: none;
   }
+  .burger-menu {
+    display: block;
+  }
+  .close {
+    display: none;
+  }
   .open {
     display: block;
   }
@@ -581,6 +587,12 @@ body {
     margin-bottom: 60px;
   }
   .menu__list {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .close {
     display: none;
   }
   .open {
@@ -695,8 +707,12 @@ body {
   .burger-menu {
     width: 100%;
     height: auto;
+    display: block;
     margin: 0;
     background-color: white;
+  }
+  .close {
+    display: none;
   }
   .burger-menu__list {
     margin: 10px;

@@ -104,7 +104,7 @@ body {
     }
 }
 
-.clous {
+.close {
     display: none;
 }
 
@@ -596,6 +596,14 @@ body {
         display: none;
     }
 
+    .burger-menu {
+        display: block;
+    }
+
+    .close {
+        display: none;
+    }
+
     .open {
         display: block;
     }
@@ -646,6 +654,14 @@ body {
     }
 
     .menu__list {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .close {
         display: none;
     }
 
@@ -792,8 +808,13 @@ body {
     .burger-menu {
         width: 100%;
         height: auto;
+        display: block;
         margin: 0;
         background-color: white;
+    }
+
+    .close {
+        display: none;
     }
 
     .burger-menu__list {

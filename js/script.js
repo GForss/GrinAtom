@@ -17,7 +17,7 @@ function goTop() {
 let burger = {
   menuButton: document.querySelector('.header__rectangle'),
   menuOpen: document.querySelector('.burger-menu'),
-  menuClous: document.querySelector('.burger-menu'),
+  menuСlose: document.querySelector('.burger-menu'),
   menuAnimation: document.querySelector('.burger-menu')
 };
 
@@ -26,9 +26,12 @@ burger.menuButton.addEventListener('click', burgerOpen);
 function burgerOpen() {
   if (burger.menuOpen.classList.contains('open') == false) {
     burger.menuOpen.classList.add('open');
-    burger.menuClous.classList.remove('clous');
+    burger.menuСlose.classList.remove('close');
+    burger.menuAnimation.classList.remove('scale-out-ver-top');
+    burger.menuAnimation.classList.add('scale-in-ver-top')
   } else {
-    burger.menuClous.classList.add('clous');
     burger.menuOpen.classList.remove('open');
+    burger.menuAnimation.classList.remove('scale-in-ver-top');
+    burger.menuAnimation.classList.add('scale-out-ver-top');
   };
 };
